@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>831e7ec6-6c97-4a4d-9625-306ba5b27d2b</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>funciones_intermedias_1.py</StartupFile>
+    <StartupFile>UsuarioConTarjeta_practica.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="analisis_ventas.py" />
     <Compile Include="bucle_for_basico1.py" />
     <Compile Include="funciones_basicas_2.py" />
     <Compile Include="funciones_intermedias_1.py" />
     <Compile Include="Hola Mundo.py" />
+    <Compile Include="TarjetaCredito_practicas.py" />
+    <Compile Include="UsuarioConTarjeta_practica.py" />
+    <Compile Include="usuario_practicas.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
