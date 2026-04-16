@@ -1,5 +1,6 @@
 #---Diccionario de ventas
 
+print("---- Diccionario de ventas ---- ")
 
 ventas = [
     {"fecha":"01-01-2026", "producto":"Sarten", "cantidad":1, "precio":5.2},
@@ -8,6 +9,8 @@ ventas = [
     {"fecha":"03-01-2026", "producto":"Taza", "cantidad":5, "precio":2.3},
     {"fecha":"04-01-2026", "producto":"Olla", "cantidad":1, "precio":7.6},
 ]
+print(ventas) ; print(" ")
+
 
 print("---- Ingresos totales ---- ")
 def ingresos_totales(diccionario:dict):
@@ -18,7 +21,7 @@ def ingresos_totales(diccionario:dict):
         ingreso += precioProducto*cantidadProducto
     return round(ingreso,2)
 
-print(ingresos_totales(ventas))
+print("Ingresos Totales:", ingresos_totales(ventas))
 
 print(" ")
 
@@ -46,7 +49,7 @@ print(" ")
 def producto_mas_vendido(diccionario:dict):
     itemList = list(diccionario.items())
     sortList = sorted(itemList,key=lambda x: x[1], reverse=True) #Como funcionaba esta funcion para este resutlado si tuve que buscarlo.
-    print(sortList)
+    print("Lista de productos de mayor a menos por cantidades vendidas:", sortList)
     return sortList[0]
 
 print("producto mas vendido:", producto_mas_vendido(ventas_por_producto))
