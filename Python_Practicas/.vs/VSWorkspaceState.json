@@ -1,11 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\modularizacion",
     "\\Modulo_Extras",
-    "\\Modulo_Python",
-    "\\Modulo_Python\\Analisis_Ventas",
-    "\\Modulo_Python\\Funciones_Intermedias"
+    "\\Tamagochi"
   ],
-  "SelectedNode": "\\Modulo_Python\\Analisis_Ventas\\analisis_ventas.py",
+  "SelectedNode": "\\Modulo_Extras\\entradas_salidas.py",
   "PreviewInSolutionExplorer": false
 }
